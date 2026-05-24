@@ -1,0 +1,51 @@
+body{
+    margin: 100px;
+}
+
+form{
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 300px;
+    height:500px;
+    box-shadow: inset 6px 3px rgb(190, 189, 189, 0.3 );
+}
+
+fieldset{
+    width: 150px;
+    margin: auto;
+    border: none;
+}
+.in{
+    width: 150px;
+    margin-top:3px;
+}
+button{
+    background-color: rgb(5, 132, 5);
+    width: 60px;
+    border-radius: 7px;
+    height: 25px;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: green;
+    width: 70px;
+    height: 30px;
+}
+
+#div{
+    text-align: center;
+    gap: 50px;
+}
+.button{
+  display: inline-flex;
+  gap: 20px;
+}
+
+
+option:hover{
+    background-color: green;
+}
